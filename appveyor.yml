@@ -1,14 +1,14 @@
 # See http://www.appveyor.com/docs/appveyor-yml for many more options
 
 # Build worker image (VM template)
-image: Visual Studio 2015
+image: Visual Studio 2017
 
 # clone directory
 clone_folder: C:\MyProjects\appveyor-test
 
 environment:
   NugetApiKey:
-    secure: ***************
+    secure: trkNLPbrgTCXvDZVL4HPqDqEef2HLFYpIOMnCNCpznF78eEOb64ixeiwPXpyo66l
 
 # Allow WMF5 (i.e. PowerShellGallery functionality)
 os: WMF 5
