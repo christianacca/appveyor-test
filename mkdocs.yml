@@ -1,0 +1,9 @@
+site_name: appveyor-test
+repo_url: https://github.com/christianacca/appveyor-test
+theme: readthedocs
+pages:
+  - Home: index.md
+  - appveyor-test Basics:
+    - What is appveyor-test: about.md
+    - Quick Start: Quick-Start-Installation-and-Example.md
+  - Acknowledgements: acknowledgements.md
